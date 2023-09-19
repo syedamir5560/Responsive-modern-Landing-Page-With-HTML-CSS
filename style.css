@@ -70,6 +70,7 @@ html , body{
 .nav i{
     font-size: 1.5rem;
     margin-left: 10px;
+    color: royalblue;
 }
 
 .nav h3{
@@ -88,7 +89,39 @@ html , body{
         cursor: pointer;
 }
 
-.nav arr{
+.nav #arr{
     float: right;
+    color: rgba(0, 0, 0, 0.389);
 }
 
+
+
+.text{
+    margin:150px;
+    /* background-color: azure; */
+    padding-top: 20px; 
+
+    
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.text>h5{
+    padding-top: 22px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button{
+    margin-top: 30px;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    border: navy;
+    background-color:royalblue;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+
+}
